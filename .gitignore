@@ -1,0 +1,14 @@
+node_modules/
+.idea
+*.code-workspace
+.vscode
+package-lock.json
+.DS_Store
+*.xml
+*.iml
+.prettierignore
+.prettierrc
+# dist/
+.gitlab-ci.yml
+workflow/
+.gitlab-ci.yml

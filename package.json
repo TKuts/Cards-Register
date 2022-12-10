@@ -1,0 +1,22 @@
+{
+  "name": "card-register",
+  "version": "1.0.0",
+  "description": "Step project Card register",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/gontar.olena/cards-register",
+    "directory": "/"
+  },
+  "author": "Olena Gontar, Serhii Dudko, Anton Kuts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/gontar.olena/cards-register/-/issues"
+  },
+  "homepage": "https://gitlab.com/gontar.olena/cards-register#readme"
+
+}

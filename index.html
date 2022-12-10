@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" type="image/png" href="./img/favicon.png">
+    <script type="module" src="./script/index.js" defer></script>
+    <title>Cards register</title>
+</head>
+<body>
+    <header class="header">
+		<section class="header__section container">
+			<a href="#" class="header__section-bcg"> <img class="logo" src="./img/312139.svg" alt="logo"></a>
+			<p class="header__section-name">Welcome, to medical center</p>
+			<button id="btn-login" class="header__section-btn btn btn-outline-secondary">Log in</button>
+      <button id="btn-visit" style="display: none;" class="header__section-btn btn btn-outline-secondary">Add visit</button>
+		</section>
+
+	</header>
+
+	<div class="body">
+		<section class="body__section container">
+			<h1 class="body__section-tittle display-1">No items have been added</h1>
+		</section>
+	</div>
+<!-- filter -->
+    <form class="filter container">
+        <div class="row">
+          <div class="col">
+            <label for="title-search" class="form-label">TITLE</label>
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                id="title-search"
+                aria-describedby="basic-addon3"
+                placeholder="filter by title"
+                name="title"
+              />
+            </div>
+          </div>
+  
+          <div class="col">
+            <label for="" class="form-label">STATUS</label>
+  
+            <select class="form-select" aria-label="Default select example" name="status" id="status-search">
+              <option selected value="">filter by status</option>
+              <!-- Options should be generated from values -->
+              <option value="open">Open</option> 
+              <option value="done">Done</option>
+            </select>
+          </div>
+  
+          <div class="col">
+            <label for="" class="form-label">PRIORITY</label>
+  
+            <select class="form-select" aria-label="Default select example" name="priority" id="priority-search">
+              <option selected value="">filter by priority</option>
+               <!-- Options should be generated from values -->
+              <option value="high">High</option>
+              <option value="normal">Normal</option>
+              <option value="low">Low</option>
+            </select>
+          </div>
+        </div>
+      </form>
+  
+   <div class="container text-start mt-4">
+    <div class="card-group d-flex flex-row flex-wrap gap-4">
+        <!-- cards will be generatged here -->
+      
+    </div>         
+        
+</body>
+</html>

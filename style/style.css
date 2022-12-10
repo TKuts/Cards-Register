@@ -1,0 +1,53 @@
+body {
+  padding-bottom: 15px;
+}
+.visit{
+    border: 1px solid black;
+}
+.size{
+   min-width: 31%;
+   max-width: 32%;
+}
+.header {
+    background-image: url(../img/bcg.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  .header__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    margin: 15px 0 15px 0;
+    width: 100px;
+  }
+  .header__section-name {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #c85342;
+  }
+  .header__section-btn {
+    height: 50px;
+  }
+  
+  .body__section {
+    margin: 100px auto;
+  }
+  .body__section-tittle {
+    color: red;
+    text-align: center;
+  }
+  .modal {
+    margin: 1rem 0 1rem;
+  }
+  
+  .modal-backdrop {
+    opacity: 0.5;
+  }
+
+  .overflow{
+    overflow: hidden;
+  }
+  
